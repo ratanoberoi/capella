@@ -8,16 +8,30 @@
 .header-left {
 	display: flex;
 	justify-content: space-between;
+	.logo {
+		width: 30px;
+		height: 30px;
+		img {
+			width: 100%;
+			height: auto;
+		}
+	}
 }
 
 .header-right {
-	margin: auto;
-	
-	ul {
+	display: flex;
+	.navigaton {
+		margin: auto;
 		display: flex;
-		justify-content: space-between;
+		
+		ul {
+			display: flex;
+			justify-content: space-between;
+		}
 	}
+	
 }
+
 
 .button1 {
 	background-color: #FFFFFF;
@@ -34,3 +48,4 @@
 .nav ul{
 	color: #2F281E;
 }
+

@@ -67,12 +67,21 @@ body {
 .header-left {
   display: flex;
   justify-content: space-between; }
+  .header-left .logo {
+    width: 1.875rem;
+    height: 1.875rem; }
+    .header-left .logo img {
+      width: 100%;
+      height: auto; }
 
 .header-right {
-  margin: auto; }
-  .header-right ul {
-    display: flex;
-    justify-content: space-between; }
+  display: flex; }
+  .header-right .navigaton {
+    margin: auto;
+    display: flex; }
+    .header-right .navigaton ul {
+      display: flex;
+      justify-content: space-between; }
 
 .button1 {
   background-color: #FFFFFF;

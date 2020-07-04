@@ -2,15 +2,16 @@
 <header class="header wrapper">
 	<div class="header-left">
 		<div class="logo">
-			<img src="assets/src/images/Bitmap.png" alt="bitmap">
+			<img src="<?php echo esc_attr( get_template_directory_uri() . '/assets/src/images/Bitmap.png' ); ?>" alt="bitmap">
 		</div>
 		<h1>Productly</h1>
 	</div>
-	<nav class="header-right">
+	<div class="header-right">
+	<nav class="navigation">
 		<?php
 		wp_nav_menu(
 			array(
-				'theme_location' => 'primary',
+				'theme_location' => 'header-menu',
 				'menu_class'     => 'main-menu',
 				'items_wrap'     => '<ul id="%1$s" class="%2$s">%3$s</ul>',
 			)
@@ -23,4 +24,5 @@
 	<button class="button2">
 		<a href="#" target="_blank">Sign Up</a>
 		</button>
-</header>
+	</div>
+	</header>
