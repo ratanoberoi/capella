@@ -79,7 +79,7 @@ body {
   .header-right .navigaton {
     margin: auto;
     display: flex; }
-    .header-right .navigaton ul {
+    .header-right .navigaton ul.main-menu {
       display: flex;
       justify-content: space-between; }
 
