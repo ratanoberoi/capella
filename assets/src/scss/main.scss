@@ -1,0 +1,16 @@
+/**
+ * Front end styles.
+ */
+
+// Settings
+@import "settings/reset";
+@import "settings/typography";
+@import "settings/variable";
+@import 'settings/colors';
+
+// Components
+@import "components/header";
+@import "components/footer";
+
+// General
+@import "general/common";
