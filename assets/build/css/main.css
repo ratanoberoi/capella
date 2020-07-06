@@ -76,10 +76,10 @@ body {
 
 .header-right {
   display: flex; }
-  .header-right .navigaton {
+  .header-right .navigation {
     margin: auto;
     display: flex; }
-    .header-right .navigaton ul.main-menu {
+    .header-right .navigation ul.main-menu {
       display: flex;
       justify-content: space-between; }
 
