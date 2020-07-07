@@ -18,7 +18,7 @@
 	}
 }
 
-.header-right {
+.header-center {
 	display: flex;
 	.navigation {
 		margin: auto;
@@ -32,18 +32,20 @@
 	
 }
 
+.header-right {
+	.button1 {
+		background-color: #FFFFFF;
+		border-color: #BCD0E5;
+		color: #173A56;
+		border-radius: initial;
+		margin: 5px;
+	}
 
-.button1 {
-	background-color: #FFFFFF;
-	border-color: #BCD0E5;
-	color: #173A56;
-	border-radius: initial;
-	margin: 5px;
-}
-.button2 {
-	background-color: #FF9900;
-	border-radius: initial;
-	margin: 5px;
+	.button2 {
+		background-color: #FF9900;
+		border-radius: initial;
+		margin: 5px;
+	}
 }
 .nav ul{
 	color: #2F281E;
