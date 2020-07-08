@@ -23,10 +23,12 @@
 	.navigation {
 		margin: auto;
 		display: flex;
+		background-color: pink;
 		
 		ul.main-menu {
 			display: flex;
 			justify-content: space-between;
+			background-color: red($color: #000000);;
 		}
 	}
 	

@@ -78,10 +78,12 @@ body {
   display: flex; }
   .header-center .navigation {
     margin: auto;
-    display: flex; }
+    display: flex;
+    background-color: pink; }
     .header-center .navigation ul.main-menu {
       display: flex;
-      justify-content: space-between; }
+      justify-content: space-between;
+      background-color: 0; }
 
 .header-right .button1 {
   background-color: #FFFFFF;
