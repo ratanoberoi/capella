@@ -75,15 +75,18 @@ body {
       height: auto; }
 
 .header-center {
-  display: flex; }
+  display: flex;
+  padding-left: 550; }
   .header-center .navigation {
     margin: auto;
     display: flex;
-    background-color: pink; }
+    color: black;
+    justify-content: end; }
     .header-center .navigation ul.main-menu {
       display: flex;
       justify-content: space-between;
-      background-color: 0; }
+      color: black;
+      justify-content: end; }
 
 .header-right .button1 {
   background-color: #FFFFFF;

@@ -20,15 +20,18 @@
 
 .header-center {
 	display: flex;
+	padding-left: 550;
 	.navigation {
 		margin: auto;
 		display: flex;
-		background-color: pink;
-		
+		color: black;
+		justify-content: end;
+				
 		ul.main-menu {
 			display: flex;
 			justify-content: space-between;
-			background-color: red($color: #000000);;
+			color: black;
+			justify-content: end;
 		}
 	}
 	
