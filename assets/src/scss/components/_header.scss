@@ -1,16 +1,18 @@
 
-
 .header {
 	display: flex;
 	justify-content: space-between;
+	padding: 16px 0;
 }
 
 .header-left {
 	display: flex;
 	justify-content: space-between;
+
 	.logo {
 		width: 30px;
 		height: 30px;
+
 		img {
 			width: 100%;
 			height: auto;
@@ -18,51 +20,68 @@
 	}
 }
 
-.header-center {
+.header-right {
 	display: flex;
-	padding-left: 400;
-	padding-top: 8;
-	width: 100px;
-	height: 28px;
+	overflow: hidden;
+
 	.navigation {
 		margin: auto;
 		display: flex;
-		color: black;
-		justify-content: end;
-				
+		justify-content: flex-end;
+
+		ul {
+			display: flex;
+
+			li {
+				a {
+					color: #000;
+					padding: 0 14px;
+				}
+			}
+		}
+
 		ul.main-menu {
 			display: flex;
-			justify-content: space-between;
 			color: black;
-			justify-content: end;
+			justify-content: flex-end;
 		}
 	}
-	
+
 }
 
 .header-right {
 	.button1 {
 		background-color: #FFFFFF;
-		border-color: #BCD0E5;
-		color: #173A56; /* need to check why this is not working */
+		color: #173A56; /* need to check why this is not working- because you have to give it to <a> which is inside button */
 		border-radius: initial;
 		margin: 5px;
 		width: 80px;
 		height: 30px;
+		border: 1px solid #BCD0E5; // You have to give border like this.
+
+		a {
+			color: #173A56;
+		}
 	}
 
 	.button2 {
 		background-color: #FF9900;
-		border-color: #FFFFFF;
-		color: #FFFFFF; /* need to check why this is not working */
+		// border-color: #FFF; /* You should use three characters for color code when all characters are the same so instead of #FFFFFF use #FFF  */
+		color: #FFF; /* need to check why this is not working- because you have to give it to <a> which is inside button  like I gave below*/
 		border-radius: initial;
 		margin: 5px;
 		width: 80px;
 		height: 30px;
-		
+		border: 1px solid #FF9900;
+
+		a {
+			color: #173A56;
+		}
+
 	}
 }
-.nav ul{
+
+.nav ul {
 	color: #2F281E;
 }
 

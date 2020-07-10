@@ -5,9 +5,6 @@
  * @package capella
  */
 
-get_header();
-wp_head();
-
 ?>
 
 <div id="primary">
@@ -15,6 +12,3 @@ wp_head();
 		Content
 	</main>
 </div>
-
-<?php
-get_footer();

@@ -62,7 +62,8 @@ body {
 
 .header {
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+  padding: 1rem 0; }
 
 .header-left {
   display: flex;
@@ -74,42 +75,46 @@ body {
       width: 100%;
       height: auto; }
 
-.header-center {
+.header-right {
   display: flex;
-  padding-left: 400;
-  padding-top: 8;
-  width: 6.25rem;
-  height: 1.75rem; }
-  .header-center .navigation {
+  overflow: hidden; }
+  .header-right .navigation {
     margin: auto;
     display: flex;
-    color: black;
-    justify-content: end; }
-    .header-center .navigation ul.main-menu {
+    justify-content: flex-end; }
+    .header-right .navigation ul {
+      display: flex; }
+      .header-right .navigation ul li a {
+        color: #000;
+        padding: 0 0.875rem; }
+    .header-right .navigation ul.main-menu {
       display: flex;
-      justify-content: space-between;
       color: black;
-      justify-content: end; }
+      justify-content: flex-end; }
 
 .header-right .button1 {
   background-color: #FFFFFF;
-  border-color: #BCD0E5;
   color: #173A56;
-  /* need to check why this is not working */
+  /* need to check why this is not working- because you have to give it to <a> which is inside button */
   border-radius: initial;
   margin: 0.3125rem;
   width: 5rem;
-  height: 1.875rem; }
+  height: 1.875rem;
+  border: 1px solid #BCD0E5; }
+  .header-right .button1 a {
+    color: #173A56; }
 
 .header-right .button2 {
   background-color: #FF9900;
-  border-color: #FFFFFF;
-  color: #FFFFFF;
-  /* need to check why this is not working */
+  color: #FFF;
+  /* need to check why this is not working- because you have to give it to <a> which is inside button  like I gave below*/
   border-radius: initial;
   margin: 0.3125rem;
   width: 5rem;
-  height: 1.875rem; }
+  height: 1.875rem;
+  border: 1px solid #FF9900; }
+  .header-right .button2 a {
+    color: #173A56; }
 
 .nav ul {
   color: #2F281E; }
