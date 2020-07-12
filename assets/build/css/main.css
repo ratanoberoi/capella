@@ -102,7 +102,7 @@ body {
   height: 1.875rem;
   border: 1px solid #bcd0e5; }
   .header-right .button1 a {
-    color: #fff; }
+    color: #173A56; }
 
 .header-right .button2 {
   background-color: #ff9900;
@@ -117,10 +117,18 @@ body {
     color: #173a56; }
 
 .nav ul {
-  color: #2f281E; }
+  color: #2f281e; }
 
 .footer {
   background-color: 0; }
+
+.hero {
+  display: flex; }
+
+.hero-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
 
 .wrapper {
   max-width: 70.3125rem;
