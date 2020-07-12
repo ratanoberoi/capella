@@ -26,15 +26,6 @@
 		</h1>
 	</div>
 
-	<div class="header-left">
-		<div class="logo">
-			<img src="<?php echo esc_attr( get_template_directory_uri() . '/assets/src/images/Bitmap.png' ); ?>"
-			     alt="bitmap">
-		</div>
-		<h1>Productly
-		</h1>
-	</div>
-
 	<div class="header-right">
 		<nav class="navigation">
 			<?php

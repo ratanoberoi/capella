@@ -51,37 +51,36 @@
 
 .header-right {
 	.button1 {
-		background-color: #FFFFFF;
-		color: #173A56; /* need to check why this is not working- because you have to give it to <a> which is inside button */
+		background-color: #fff;
+		color: #173a56; /* need to check why this is not working- because you have to give it to <a> which is inside button */
 		border-radius: initial;
 		margin: 5px;
 		width: 80px;
 		height: 30px;
-		border: 1px solid #BCD0E5; // You have to give border like this.
+		border: 1px solid #bcd0e5; // You have to give border like this.
 
 		a {
-			color: #173A56;
+			color: #fff;
 		}
 	}
 
 	.button2 {
-		background-color: #FF9900;
+		background-color: #ff9900;
 		// border-color: #FFF; /* You should use three characters for color code when all characters are the same so instead of #FFFFFF use #FFF  */
 		color: #FFF; /* need to check why this is not working- because you have to give it to <a> which is inside button  like I gave below*/
 		border-radius: initial;
 		margin: 5px;
 		width: 80px;
 		height: 30px;
-		border: 1px solid #FF9900;
+		border: 1px solid #ff9900;
 
 		a {
-			color: #173A56;
+			color: #173a56;
 		}
 
 	}
 }
 
 .nav ul {
-	color: #2F281E;
+	color: #2f281E;
 }
-
