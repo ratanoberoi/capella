@@ -22,8 +22,11 @@
 			<img src="<?php echo esc_attr( get_template_directory_uri() . '/assets/src/images/Bitmap.png' ); ?>"
 			     alt="bitmap">
 		</div>
-		<h1>Productly
-		</h1>
+		<div class="logo2">
+			<img src="<?php echo esc_attr( get_template_directory_uri() . '/assets/src/images/Productly.png' ); ?>"
+			     alt="Productly">
+		</div>	
+	
 	</div>
 
 	<div class="header-right">
