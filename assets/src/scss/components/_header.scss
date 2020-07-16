@@ -8,26 +8,23 @@
 .header-left {
 	display: flex;
 	justify-content: space-between;
+	align-self: flex-end;
 
 	.logo {
-		width: 30px;
-		height: 30px;
+		width: 31.7px;
+		height: 32px;
 	}
 	.logo2 {
 		width: 143.12px;
 		height: 28.97px;
+		margin: auto;
 	}
 
-	.logo2 {
-		width: 143.12px;
-		height: 28.97px;
-	}
 		img {
 			width: 100%;
 			height: auto;
 		}
 	}
-}
 
 .header-right {
 	display: flex;

@@ -3,7 +3,14 @@
 }
 
 .hero-left {
+    h1 {font-size: 44px;
+        display: contents;
+    }
+    p {
+        font-size: 18px;
+    }
     display: flex;
     flex-direction: column;
     justify-content: center;
+
 }

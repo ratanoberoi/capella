@@ -8,7 +8,7 @@
 
 <div class="hero wrapper" >
     <div class="hero-left">
-        <h1>The Design</h1>
+        <h1>The Design Thinking superpowers</h1>
         <p>Tools, tutorials, design and innovation experts, all in one place! The most intuitive way to imagine your next user experience.</p>
         <div class="cta">
             <button>
