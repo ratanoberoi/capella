@@ -8,9 +8,27 @@
     }
     p {
         font-size: 18px;
+        margin-top: 20px;
+        margin-bottom: 25px;
     }
     display: flex;
     flex-direction: column;
     justify-content: center;
+    
+}
+.hero-left button {
+        background-color: #ff9900;
+		// border-color: #FFF; /* You should use three characters for color code when all characters are the same so instead of #FFFFFF use #FFF  */
+		color: #FFF; /* need to check why this is not working- because you have to give it to <a> which is inside button  like I gave below*/
+		border-radius: initial;
+		margin: 5px;
+		width: 175px;
+		height: 53px;
+        border: 1px solid #ff9900;
+        a {color: #fff;}
+}
 
+hero-right {
+    height: 494.83px;
+    width: 604.35px;
 }
