@@ -144,8 +144,6 @@ body {
 
 .hero-left button {
   background-color: #ff9900;
-  color: #FFF;
-  /* need to check why this is not working- because you have to give it to <a> which is inside button  like I gave below*/
   border-radius: initial;
   margin: 0.3125rem;
   width: 10.9375rem;
@@ -153,6 +151,9 @@ body {
   border: 1px solid #ff9900; }
   .hero-left button a {
     color: #fff; }
+
+.cta a {
+  color: #FF9900; }
 
 hero-right {
   height: 30.92688rem;
