@@ -133,7 +133,8 @@ body {
 .hero-left {
   display: flex;
   flex-direction: column;
-  justify-content: center; }
+  justify-content: center;
+  display: contents; }
   .hero-left h1 {
     font-size: 2.75rem;
     display: contents; }
@@ -154,6 +155,9 @@ body {
 
 .cta a {
   color: #FF9900; }
+
+.hero-left triangle {
+  display: contents; }
 
 hero-right {
   height: 30.92688rem;
