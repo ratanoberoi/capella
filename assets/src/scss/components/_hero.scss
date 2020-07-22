@@ -2,8 +2,9 @@
     display: flex;
 }
 
-.hero-left {
-    h1 {font-size: 44px;
+.hero-left  {
+    h1 {
+        font-size: 44px;
         display: contents;
     }
     p {
@@ -11,11 +12,12 @@
         margin-top: 20px;
         margin-bottom: 25px;
     }
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    display: contents;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        display: contents;
 }
+
 .hero-left button {
         background-color: #ff9900;		
 		border-radius: initial;
@@ -26,7 +28,7 @@
         a {color: #fff;}
 }
 .cta a {
-    color: #FF9900;
+    color: #ff9900;
     }
 
 hero-right {

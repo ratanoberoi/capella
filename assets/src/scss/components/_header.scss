@@ -66,14 +66,14 @@
 		border: 1px solid #bcd0e5; // You have to give border like this.
 
 		a {
-			color: #173A56;
+			color: #173a56;
 		}
 	}
 
 	.button2 {
 		background-color: #ff9900;
-		// border-color: #FFF; /* You should use three characters for color code when all characters are the same so instead of #FFFFFF use #FFF  */
-		color: #FFF; /* need to check why this is not working- because you have to give it to <a> which is inside button  like I gave below*/
+		// border-color: #fff; /* You should use three characters for color code when all characters are the same so instead of #FFFFFF use #FFF  */
+		color: #fff; /* need to check why this is not working- because you have to give it to <a> which is inside button  like I gave below*/
 		border-radius: initial;
 		margin: 5px;
 		width: 80px;
