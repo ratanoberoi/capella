@@ -68,7 +68,9 @@ body {
 .header-left {
   display: flex;
   justify-content: space-between;
-  align-self: flex-end; }
+  align-self: flex-end;
+  width: 11.6875rem;
+  height: 2rem; }
   .header-left .logo {
     width: 1.98125rem;
     height: 2rem; }
