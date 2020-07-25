@@ -127,7 +127,9 @@ body {
   color: #2f281e; }
 
 .footer {
-  background-color: 0; }
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0; }
 
 .hero {
   display: flex; }
