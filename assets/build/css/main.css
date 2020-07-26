@@ -126,7 +126,7 @@ body {
 .nav ul {
   color: #2f281e; }
 
-.footer {
+.footer-left {
   display: flex;
   justify-content: space-between;
   padding: 1rem 0; }
