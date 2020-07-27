@@ -15,6 +15,11 @@
 		<ol>Blog</ol>
 		<ol>Contact</ol>
 		<ol>FAQ</ol>
+		<h2>Quick Links</h2>
+		<ol>Disclamer</ol>
+		<ol>Financing</ol>
+		<ol>Privacy Policy</ol>
+		<ol>Terms of Service</ol>
 </div>
 </html>
 </footer>
