@@ -8,9 +8,13 @@
 				 alt="bitmap">
 		<div class="logo2">
 			<img src="<?php echo esc_attr( get_template_directory_uri() . '/assets/src/images/Productly.png' ); ?>"
-			     alt="Productly">
+				 alt="Productly">
 		</div>
-
+		<h1>Quick Links</h1>
+		<ol>About Us</ol>
+		<ol>Blog</ol>
+		<ol>Contact</ol>
+		<ol>FAQ</ol>
 </div>
 </html>
 </footer>
