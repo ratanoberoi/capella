@@ -20,6 +20,7 @@
 		<ol>Financing</ol>
 		<ol>Privacy Policy</ol>
 		<ol>Terms of Service</ol>
+		<h3>knowing you're always on the best energy deal.</h3>
 </div>
 </html>
 </footer>
