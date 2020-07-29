@@ -14,11 +14,13 @@
             <button>
                 <a href="#">Get Started</a>
             </button>
-            <div class="triangle">
-			    <img src="<?php echo esc_attr( get_template_directory_uri() . '/assets/src/images/Triangle.png' ); ?>"
-			     alt="Triangle">
-		    </div>
-            <a href="#">Watch the Video</a>
+            <div class="triangle-link-container">
+                <div class="triangle">
+			        <img src="<?php echo esc_attr( get_template_directory_uri() . '/assets/src/images/Triangle.png' ); ?>"
+			        alt="Triangle">
+		        </div>
+                <a href="#">Watch the Video</a>
+            </div>
         </div>
     </div>    
 

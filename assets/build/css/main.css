@@ -137,11 +137,9 @@ body {
 .hero-left {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  display: contents; }
+  justify-content: center; }
   .hero-left h1 {
-    font-size: 2.75rem;
-    display: contents; }
+    font-size: 2.75rem; }
   .hero-left p {
     font-size: 1.125rem;
     margin-top: 1.25rem;
@@ -157,12 +155,18 @@ body {
   .hero-left button a {
     color: #fff; }
 
-.cta a {
-  color: #ff9900; }
+.cta {
+  display: flex;
+  align-items: center; }
+  .cta a {
+    color: #ff9900; }
 
 hero-right {
   height: 30.92688rem;
   width: 37.77188rem; }
+
+.triangle-link-container {
+  display: flex; }
 
 .wrapper {
   max-width: 70.3125rem;
