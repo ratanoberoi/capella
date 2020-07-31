@@ -139,7 +139,8 @@ body {
   flex-direction: column;
   justify-content: center; }
   .hero-left h1 {
-    font-size: 2.75rem; }
+    font-size: 2.75rem;
+    display: contents; }
   .hero-left p {
     font-size: 1.125rem;
     margin-top: 1.25rem;
