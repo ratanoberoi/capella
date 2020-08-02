@@ -131,6 +131,12 @@ body {
   justify-content: space-between;
   padding: 1rem 0; }
 
+.footer wrapper {
+  display: contents; }
+
+.logo1 {
+  display: contents; }
+
 .hero {
   display: flex; }
 
@@ -158,7 +164,9 @@ body {
 
 .cta {
   display: flex;
-  align-items: center; }
+  align-items: center;
+  width: 22.875rem;
+  height: 3.3125rem; }
   .cta a {
     color: #ff9900; }
 
