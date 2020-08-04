@@ -464,11 +464,17 @@ body {
   justify-content: space-between;
   padding: 1rem 0; }
 
-.footer wrapper {
-  display: contents; }
+.logos {
+  display: flex;
+  align-items: center; }
 
 .logo1 {
-  display: contents; }
+  height: 1.9375rem;
+  width: 1.9375rem; }
+
+.footer-left {
+  height: 1.87313rem;
+  width: 8.89688rem; }
 
 .hero {
   display: flex; }
@@ -513,6 +519,10 @@ hero-right {
 .wrapper {
   max-width: 70.3125rem;
   margin: 0 auto; }
+
+img {
+  width: 100%;
+  height: auto; }
 
 @media print, screen and (min-width: 40em) {
       .row .row {
