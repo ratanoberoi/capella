@@ -46,6 +46,15 @@
 		</div>
 		<div class="columns large-4 medium-4 small-12 large-expand">
 			<h3>knowing you're always on the best energy deal.</h3>
+			<div class="phonenumber">
+				<input type="tel" placeholder="Enter your phone Number">
+			</div>
+			<div class="footer-button">
+				<button>
+                	<a href="#">Sign up Now</a>
+            	</button>
+			</div>
+			
 		</div>
 	</div>
 </div>

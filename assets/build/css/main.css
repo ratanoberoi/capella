@@ -476,6 +476,10 @@ body {
   height: 1.87313rem;
   width: 8.89688rem; }
 
+.phonenumber {
+  width: 20.3125rem;
+  height: 3rem; }
+
 .hero {
   display: flex; }
 
