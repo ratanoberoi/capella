@@ -480,6 +480,16 @@ body {
   width: 20.3125rem;
   height: 3rem; }
 
+.footer-button {
+  background-color: #ff9900;
+  border-radius: initial;
+  margin: 0.3125rem;
+  width: 10.9375rem;
+  height: 3.3125rem;
+  border: 1px solid #ff9900; }
+  .footer-button a {
+    color: #fff; }
+
 .hero {
   display: flex; }
 
