@@ -478,7 +478,9 @@ body {
 
 .phonenumber {
   width: 20.3125rem;
-  height: 3rem; }
+  height: 3rem;
+  color: #BCD0E5;
+  border: #BCD0E5; }
 
 .footer-button {
   background-color: #ff9900;
