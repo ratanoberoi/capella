@@ -49,12 +49,10 @@
 			<div class="phonenumber">
 				<input type="tel" placeholder="Enter your phone Number">
 			</div>
-			<div class="footer-button">
-				<button>
-                	<a href="#">Sign up Now</a>
-            	</button>
-			</div>
-			
+			<button class="footer-button">
+               	<a href="#">Sign up Now</a>
+			</button>
+							
 		</div>
 	</div>
 </div>
