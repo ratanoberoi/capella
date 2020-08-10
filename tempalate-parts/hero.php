@@ -27,5 +27,7 @@
     <div class="hero-right">
         <img src="<?php echo esc_attr( get_template_directory_uri() . '/assets/src/images/hero-right.png' ); ?>" alt="">
     </div>
-
 </div>
+<h2 class="header-secondsection">
+    We design tools to unveil your superpowers
+</h2>
