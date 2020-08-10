@@ -497,7 +497,9 @@ body {
 .hero-left {
   display: flex;
   flex-direction: column;
-  justify-content: center; }
+  justify-content: center;
+  width: 32.375rem;
+  height: 20.6875rem; }
   .hero-left h1 {
     font-size: 2.75rem;
     display: contents; }
