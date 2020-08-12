@@ -9,7 +9,7 @@
 <footer class="footer">
 
 <?php wp_footer(); ?>
-</body>
+</body>	
 <div class="footer wrapper" >
 	<div class="row">
 		<div class="columns large-4 medium-4 small-12 large-expand">
